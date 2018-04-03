@@ -92,6 +92,10 @@
     <string name="rom_version">AtomOS version</string>
     <string name="rom_version_default">Unknown</string>
 
+       <!-- Maintainer -->
+    <string name="maintainer">Maintainer</string>
+
+
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
