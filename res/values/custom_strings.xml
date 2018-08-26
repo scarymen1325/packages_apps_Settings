@@ -87,6 +87,7 @@
     <string name="auto_refresh_rate">Auto</string>
 
     <!-- ROM version -->
+    <string name="build_date">Build date</string>
     <string name="rom_version">AtomOS version</string>
     <string name="rom_version_default">Unknown</string>
 
