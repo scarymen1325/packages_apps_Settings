@@ -20,4 +20,11 @@
     <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
     <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
 
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Smart Charging</string>
+    <string name="smart_charging_summary">Set maximum charging level</string>
+    <string name="smart_charging_switch_title">Use Smart charging</string>
+    <string name="smart_charging_level_title">Trigger level</string>
+    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+
 </resources>

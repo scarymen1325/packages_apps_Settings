@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2009 The Android Open Source Project
-
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
           http://www.apache.org/licenses/LICENSE-2.0
-
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -33,17 +30,6 @@
         android:title="@string/summary_placeholder"
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryTipPreferenceController" />
 
-    <com.android.settings.fuelgauge.PowerGaugePreference
-        android:key="last_full_charge"
-        android:title="@string/battery_last_full_charge"
-        android:selectable="false"
-        settings:allowDividerAbove="true" />
-
-    <com.android.settings.fuelgauge.PowerGaugePreference
-        android:key="screen_usage"
-        android:title="@string/device_screen_usage"
-        android:selectable="false" />
-
     <Preference
         android:fragment="com.android.settings.fuelgauge.batterysaver.BatterySaverSettings"
         android:key="battery_saver_summary"
@@ -63,5 +49,22 @@
         android:summary="@string/battery_percentage_description"
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
 
+
+    <com.android.settings.fuelgauge.PowerGaugePreference
+        android:key="last_full_charge"
+        android:title="@string/battery_last_full_charge"
+        android:selectable="false"
+        settings:allowDividerAbove="true" />
+
+    <com.android.settings.fuelgauge.PowerGaugePreference
+        android:key="screen_usage"
+        android:title="@string/device_screen_usage"
+        android:selectable="false" />
+
+    <Preference
+        android:fragment="com.android.settings.fuelgauge.smartcharging.SmartChargingSettings"
+        android:key="smart_charging_key"
+        android:title="@string/smart_charging_title"
+        android:summary="@string/smart_charging_summary" />
 
 </PreferenceScreen>
