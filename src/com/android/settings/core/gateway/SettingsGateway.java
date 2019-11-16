@@ -1,3 +1,4 @@
+
 /*
  * Copyright (C) 2016 The Android Open Source Project
  *
@@ -151,6 +152,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.atom.settings.AtomSettings;
+import com.atom.settings.fragments.GamingMode;
 
 public class SettingsGateway {
 
@@ -289,7 +291,8 @@ public class SettingsGateway {
             GlobalActionsPanelSettings.class.getName(),
             DarkModeSettingsFragment.class.getName(),
             LiveDisplaySettings.class.getName(),
-            AtomSettings.class.getName()
+            AtomSettings.class.getName(),
+            GamingMode.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -329,5 +332,7 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.AtomSettingsActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),
     };
             }
+
