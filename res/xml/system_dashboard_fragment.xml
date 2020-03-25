@@ -19,7 +19,7 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="system_dashboard_screen"
     android:title="@string/header_category_system"
-    settings:initialExpandedChildrenCount="6">
+    settings:initialExpandedChildrenCount="5">
 
     <Preference
         android:key="gesture_settings"
@@ -38,12 +38,12 @@
         android:fragment="com.android.settings.custom.buttons.ButtonSettings"/>
 
     <!-- Statusbar Settings -->
-    <Preference
+    <!--Preference
         android:key="statusbar_settings"
         android:title="@string/status_bar_title"
         android:icon="@drawable/ic_settings_statusbar"
         android:order="-248"
-        android:fragment="com.android.settings.custom.statusbar.StatusBarSettings" />
+        android:fragment="com.android.settings.custom.statusbar.StatusBarSettings" /-->
 
     <Preference
         android:key="reset_dashboard"
