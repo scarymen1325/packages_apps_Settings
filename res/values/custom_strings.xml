@@ -117,4 +117,7 @@
     <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
     <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
 
+    <!-- Battery light -->
+    <string name="battery_light_title">Turn on the light when charging</string>
+
 </resources>
