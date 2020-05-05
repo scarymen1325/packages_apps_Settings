@@ -35,6 +35,7 @@ public class RomVersionDetailPreferenceController extends BasePreferenceControll
     private static final Uri INTENT_URI_DATA = Uri.parse("https://paypal.me/");
     private static final String TAG = "romDialogCtrl";
     private static final String KEY_ROM_VERSION_PROP = "org.atom.build_version";
+    private static final String KEY_ROM_CODENAME_PROP = "org.atom.build_codename";
     private static final String KEY_ROM_RELEASETYPE_PROP = "org.atom.build_type";
     private final PackageManager mPackageManager = this.mContext.getPackageManager();
 
@@ -49,10 +50,12 @@ public class RomVersionDetailPreferenceController extends BasePreferenceControll
     public CharSequence getSummary() {
         String romVersion = SystemProperties.get(KEY_ROM_VERSION_PROP,
                 this.mContext.getString(R.string.device_info_default));
+        String romCodename =  SystemProperties.get(KEY_ROM_CODENAME_PROP,
+                this.mContext.getString(R.string.device_info_default));
         String romReleasetype =  SystemProperties.get(KEY_ROM_RELEASETYPE_PROP,
                 this.mContext.getString(R.string.device_info_default));
         if (!romVersion.isEmpty() && !romReleasetype.isEmpty())
-            return romVersion + " | " + romReleasetype;
+            return romVersion + " | " + romCodename + " | " + romReleasetype;
         else
             return mContext.getString(R.string.rom_version_default);
     }
