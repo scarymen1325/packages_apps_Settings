@@ -14,7 +14,7 @@
 
     <!-- Atom Settings -->
     <string name="atom_settings_title">Atom Settings</string>
-    <string name="atom_settings_summary">Atomic!</string>
+    <string name="atom_settings_summary">Android Project With Love!</string>
 
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
