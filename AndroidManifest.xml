@@ -3330,7 +3330,7 @@
         <!-- AtomSettings -->
         <activity android:name=".Settings$AtomSettingsActivity"
             android:label="@string/atom_settings_title"
-            android:icon="@drawable/ic_settings_atom"
+            android:icon="@drawable/ic_homepage_atom"
             android:taskAffinity="">
             <intent-filter android:priority="1">
                 <action android:name="com.atom.settings.AtomSettings" />

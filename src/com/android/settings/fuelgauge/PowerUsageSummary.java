@@ -79,8 +79,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     private static final String SMART_CHARGING = "smart_charging";
     private static final String KEY_BATTERY_TEMP = "battery_temp";
 
-    private SystemSettingMasterSwitchPreference mSmartCharging;
-
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
