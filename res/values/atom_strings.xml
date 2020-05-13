@@ -32,5 +32,11 @@
 
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Color bucket</string>
+    
+        <!-- Whether to show or hide sensitive info (like IMEI and Phone Number) on About phone -->
+    <bool name="configShowDeviceSensitiveInfo">false</bool>
+    
+        <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tap to show info</string>
 
 </resources>
